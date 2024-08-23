@@ -1,0 +1,55 @@
+.selectDrop {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    background: #fff;
+    top: 5vh;
+    left: -20px;
+    z-index: 100;
+    padding: 15px;
+}
+
+.searchField input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #BCE3C9;
+    outline: none;
+    padding: 0 15px;
+    border-radius: 5px;
+
+}
+
+.selectDrop .searchResult {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    max-height: 250px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+.selectDrop .searchResult li {
+    list-style: none;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+}
+
+.selectDrop .searchResult li:hover {
+    background-color: #9DDBC9;
+}
+
+.openDropdown {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.selectDrop .searchResult li.active {
+    background: #ECECEC;
+}
+
+.downArrow {
+    font-size: 14px !important;
+}
